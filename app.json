@@ -1,0 +1,26 @@
+{
+  "name": "shanu-MD",
+  "description": "Javascript WhatsApp bot made by shanu",
+  "logo": "https://telegra.ph/file/dddf7ee9971497aa050ef.jpg",
+  "keywords": ["bot"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "𝙰𝚂𝙸𝚃𝙷𝙰-𝙼𝙳=rq5FRZ6I#4IDwNEk7QEzo0vZyJDnwX3Lbo_fKGDDEo9cc9HI9-_Y",
+      "required": true
+    },  
+
+    "MONGODB": {
+      "description": "mongodb+srv://DARKSHAN:3000@cluster0.t1wsjlv.mongodb.net",
+      "required": true
+    }
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
